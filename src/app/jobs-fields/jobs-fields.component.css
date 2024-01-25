@@ -1,0 +1,13 @@
+#wrapper{
+    margin-top: 40px;
+}
+#wrapper h1{
+    text-align: center;
+}
+#cards-container{
+    margin-top: 100px;
+    
+}
+#card{
+    cursor: pointer;
+}

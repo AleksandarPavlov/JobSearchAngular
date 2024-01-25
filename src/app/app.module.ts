@@ -3,10 +3,26 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NavigationComponent } from './navigation/navigation.component';
+import { MainCardsComponent } from './main-cards/main-cards.component';
+import { TopCategoriesComponent } from './top-categories/top-categories.component';
+import { ConnectSectionComponent } from './connect-section/connect-section.component';
+import { JobsFieldsComponent } from './jobs-fields/jobs-fields.component';
+import { FooterComponent } from './footer/footer.component';
+import { JobCardsComponent } from './job-cards/job-cards.component';
+import { LatestJobsComponent } from './latest-jobs/latest-jobs.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavigationComponent,
+    MainCardsComponent,
+    TopCategoriesComponent,
+    ConnectSectionComponent,
+    JobsFieldsComponent,
+    FooterComponent,
+    JobCardsComponent,
+    LatestJobsComponent,
   ],
   imports: [
     BrowserModule,
