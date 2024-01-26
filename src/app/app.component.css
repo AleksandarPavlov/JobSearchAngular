@@ -35,3 +35,15 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
         
     }
 }
+
+@media only screen and (max-width: 428px) {
+
+    .main-text{
+       width: 320px;
+        
+    }
+    .main-text h1{
+        font-size: 49px;
+    }
+    
+}
