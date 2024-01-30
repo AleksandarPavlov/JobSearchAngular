@@ -2,10 +2,14 @@
 module.exports = {
   content: [
     "./src/**/*.{html,ts}",
-    "./node_modules/david-ui-angular/**/*.{html,ts,js,mjs}",
     "./node_modules/flowbite/**/*.js"
   ],
   theme: {
+    theme: {
+      fontFamily: {
+        sans: ['ui-sans-serif', 'system-ui']
+      }
+    },
     extend: {},
   },
   plugins: [

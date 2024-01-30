@@ -11,6 +11,8 @@ import { JobsFieldsComponent } from './jobs-fields/jobs-fields.component';
 import { FooterComponent } from './footer/footer.component';
 import { JobCardsComponent } from './job-cards/job-cards.component';
 import { LatestJobsComponent } from './latest-jobs/latest-jobs.component';
+import { CompaniesPageComponent } from './companies-page/companies-page.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { LatestJobsComponent } from './latest-jobs/latest-jobs.component';
     FooterComponent,
     JobCardsComponent,
     LatestJobsComponent,
+    CompaniesPageComponent,
+    LandingPageComponent,
   ],
   imports: [
     BrowserModule,
