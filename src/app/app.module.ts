@@ -13,6 +13,7 @@ import { JobCardsComponent } from './job-cards/job-cards.component';
 import { LatestJobsComponent } from './latest-jobs/latest-jobs.component';
 import { CompaniesPageComponent } from './companies-page/companies-page.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { BannerComponent } from './banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
     LatestJobsComponent,
     CompaniesPageComponent,
     LandingPageComponent,
+    BannerComponent,
   ],
   imports: [
     BrowserModule,
