@@ -14,6 +14,9 @@ import { LatestJobsComponent } from './latest-jobs/latest-jobs.component';
 import { CompaniesPageComponent } from './companies-page/companies-page.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { BannerComponent } from './banner/banner.component';
+import { LoginPageComponent } from './login-page/login-page.component';
+import { RegisterPageComponent } from './register-page/register-page.component';
+
 
 @NgModule({
   declarations: [
@@ -29,6 +32,8 @@ import { BannerComponent } from './banner/banner.component';
     CompaniesPageComponent,
     LandingPageComponent,
     BannerComponent,
+    LoginPageComponent,
+    RegisterPageComponent,
   ],
   imports: [
     BrowserModule,
