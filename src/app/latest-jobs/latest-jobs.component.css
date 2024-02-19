@@ -9,6 +9,8 @@
 #cards-wrapper{
   background: url("../../assets/images/banner5.png");
   background-attachment: fixed;
+  background-size: cover;
+
 }
 
 a:hover{
@@ -22,6 +24,10 @@ a:hover{
         width: auto;
         margin-bottom: 0;
         max-width: 300px;
+    }
+
+    #cards-wrapper{
+        background-attachment: unset;
     }
 
   
