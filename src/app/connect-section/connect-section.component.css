@@ -5,6 +5,7 @@
     background:url("../../assets/images/banner8.jpg");
     background-size: cover;
     background-attachment: fixed;
+    max-width: 2800px;
 
 }
 .left-section{
@@ -71,6 +72,7 @@
         width: 90%;
     }
     
+
     .section-text h1{
         line-height: 60px;
     }
@@ -78,6 +80,8 @@
     .wrapper{
 
         height:800px;
+        background-attachment: unset;
+        background-size: cover;
     
     }
     #connectdevelop{
@@ -92,16 +96,11 @@
     }
 }
 
-@media only screen and (max-width: 639px) {
-
-    .wrapper{
-        background-attachment: unset;
-    }
-}
-
 @media only screen and (max-width: 470px) {
     .wrapper{
         height:850px;
+        background:url("../../assets/images/banner8-small.jpg");
+        background-size: cover;
     }
     .section-text{
         margin-top: 45px;

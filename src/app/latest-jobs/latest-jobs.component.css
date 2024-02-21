@@ -10,12 +10,21 @@
   background: url("../../assets/images/banner5.jpg");
   background-attachment: fixed;
   background-size: cover;
+  max-width: 2800px;
 
 }
 
 a:hover{
     cursor: pointer;
     color: rgb(75, 102, 221);
+}
+
+@media only screen and (max-width: 767px) {
+
+    #cards-wrapper{
+        background-attachment: unset;
+    }
+
 }
 
 @media only screen and (max-width: 640px) {
@@ -25,10 +34,14 @@ a:hover{
         margin-bottom: 0;
         max-width: 300px;
     }
+  
+}
+
+@media only screen and (max-width: 428px) {
 
     #cards-wrapper{
-        background-attachment: unset;
+        background: url("../../assets/images/banner5-small.jpg");
+        background-size: cover;
     }
 
-  
 }
