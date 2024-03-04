@@ -56,7 +56,7 @@
 
 .fade-in-svg {
     opacity: 0;
-    transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
   }
   
 .fade-in-svg.fade-in {
